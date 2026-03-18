@@ -94,11 +94,22 @@
       <path value="$PROJECT_DIR$/src/vendor/yiisoft/yii2" />
       <path value="$PROJECT_DIR$/src/vendor/yiisoft/yii2-composer" />
       <path value="$PROJECT_DIR$/src/vendor/yiisoft/yii2-symfonymailer" />
+      <path value="$PROJECT_DIR$/src/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/src/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/src/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/type-info" />
+      <path value="$PROJECT_DIR$/src/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/src/vendor/radebatz/type-info-extras" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/src/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />

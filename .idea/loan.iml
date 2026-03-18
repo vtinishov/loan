@@ -86,6 +86,12 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/yiisoft/yii2-faker" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/yiisoft/yii2-gii" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/yiisoft/yii2-symfonymailer" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpstan/phpdoc-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/radebatz/type-info-extras" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/type-info" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/zircote/swagger-php" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

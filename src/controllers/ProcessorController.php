@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use OpenApi\Annotations as OA;
 use Yii;
 use yii\db\Exception;
 use yii\rest\Controller;
@@ -10,6 +11,28 @@ use app\models\LoanRequest;
 class ProcessorController extends Controller
 {
     /**
+     * Обработка ожидающих заявок на кредит.
+     *
+     * @OA\Get(
+     *     path="/processor",
+     *     summary="Обработать ожидающие заявки",
+     *     tags={"Процессор"},
+     *     @OA\Parameter(
+     *         name="delay",
+     *         in="query",
+     *         required=false,
+     *         description="Задержка в секундах между обработкой заявок",
+     *         @OA\Schema(type="integer", default=0)
+     *     ),
+     *     @OA\Response(
+     *         response=200,
+     *         description="Заявки успешно обработаны",
+     *         @OA\JsonContent(
+     *             @OA\Property(property="result", type="boolean", example=true)
+     *         )
+     *     )
+     * )
+     *
      * @throws Exception
      */
     public function actionIndex($delay = 0): array
