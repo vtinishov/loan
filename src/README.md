@@ -1,3 +1,34 @@
+# Loan API
+
+API для управления заявками на кредит.
+
+## Запуск
+
+### Docker
+
+```bash
+docker-compose up -d
+
+# из контейнера
+composer install
+```
+
+Приложение будет доступно по адресу: **http://localhost:80**
+
+
+## Swagger / OpenAPI
+
+**Документация API:** [http://localhost:80/swagger.html](http://localhost:80/swagger.html)
+
+## API Endpoints
+
+| Метод | Путь | Описание |
+|-------|------|----------|
+| POST | `/requests` | Создать заявку на кредит |
+| GET | `/processor` | Обработать ожидающие заявки |
+
+---
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
